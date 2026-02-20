@@ -1,3 +1,92 @@
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/sumitv1234567/expensebyjuspay/refs/heads/main/manifest.plist">
-    Click here to Install App
-</a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense by Juspay | Download</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-slate-50 font-sans antialiased text-gray-900">
+    <section class="min-h-screen flex items-center justify-center py-12 px-4">
+      <div class="max-w-4xl w-full text-center">
+        <div class="mb-8 flex justify-center">
+          <div
+            class="w-24 h-24 bg-blue-600 rounded-3xl shadow-xl flex items-center justify-center text-white text-5xl"
+          >
+            <i class="fas fa-wallet"></i>
+          </div>
+        </div>
+
+        <h1
+          class="text-5xl font-extrabold tracking-tight mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 uppercase"
+        >
+          Expense by Juspay
+        </h1>
+
+        <div
+          class="flex flex-col sm:flex-row gap-6 justify-center items-center"
+        >
+          <a
+            href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/sumitv1234567/expensebyjuspay/refs/heads/main/manifest.plist"
+            class="flex items-center bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all transform hover:-translate-y-1 shadow-lg w-72"
+          >
+            <i class="fab fa-apple text-3xl mr-4"></i>
+            <div class="text-left">
+              <p class="text-[10px] uppercase opacity-70">Install for</p>
+              <p class="text-xl font-semibold leading-tight">iOS (Manifest)</p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/sumitv1234567/expensebyjuspay/releases/download/expense_android/app-release.apk"
+            class="flex items-center bg-green-600 text-white px-8 py-4 rounded-2xl hover:bg-green-700 transition-all transform hover:-translate-y-1 shadow-lg w-72"
+          >
+            <i class="fab fa-android text-3xl mr-4"></i>
+            <div class="text-left">
+              <p class="text-[10px] uppercase opacity-70">Download for</p>
+              <p class="text-xl font-semibold leading-tight">Android (APK)</p>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-6 text-left max-w-3xl mx-auto"
+        >
+          <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+            <div class="flex items-center mb-2 text-blue-600">
+              <i class="fas fa-mobile-alt mr-2"></i>
+              <span class="font-bold">iOS Installation</span>
+            </div>
+            <p class="text-sm text-gray-500 leading-relaxed">
+              After clicking install, go to
+              <b>Settings > General > VPN & Device Management</b> to trust the
+              enterprise certificate.
+            </p>
+          </div>
+
+          <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+            <div class="flex items-center mb-2 text-green-600">
+              <i class="fas fa-cog mr-2"></i>
+              <span class="font-bold">Android Installation</span>
+            </div>
+            <p class="text-sm text-gray-500 leading-relaxed">
+              If the download is blocked, allow
+              <b>"Install from Unknown Sources"</b> in your browser settings to
+              proceed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-8 text-center text-gray-400 text-xs tracking-widest uppercase"
+    >
+      Built by SumitV &bull; Juspay Project
+    </footer>
+  </body>
+</html>
